@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer components {
+  .padding {
+    @apply px-8 py-12 sm:px-16 sm:py-24;
+  }
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
