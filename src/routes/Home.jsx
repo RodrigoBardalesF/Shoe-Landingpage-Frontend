@@ -1,4 +1,3 @@
-import Button from "../components/Button"
 import {PopularProducts, SuperQuality, Services,
     SpecialOffer, CustomerReviews, Subscribe, MainExposition } from "../sections/sections"
     
@@ -25,7 +24,6 @@ function Home() {
         </section>
          <section className = "padding sm:py-32 py-16 w-full">
             <Subscribe />
-        <Button label="Subscribe Now" url="/subscribe"/>
         </section>
         </>
     )

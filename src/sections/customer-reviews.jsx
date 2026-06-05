@@ -3,11 +3,14 @@ import ReviewCard from "../components/ReviewCard"
 
 function CustomerReviews () {
     return (
-        <section className="max-container">
+    <section className="max-container">
         <h3 className="font-palanquin text-center text-4xl font-bold">
-            What Our <span className="text-red-500">
-                Customers </span>Say?</h3>
-        <p className="w-full mt-6 text-lg leading-7 text-gray-500 sm:max-w-sm">
+            What Our 
+            <span className="text-red-500">
+                Customers 
+            </span>Say?
+        </h3>
+        <p className="m-auto max-w-lg mt-4 text-center text-lg leading-7 text-gray-500 sm:max-w-sm">
             Hear genuine stories from our satisfied customers about their exceptional experiences with us.
         </p>
         <div className="mt-24 flex flex-1 justify-evenly items-center max-lg:flex-col gap-14">
@@ -18,7 +21,7 @@ function CustomerReviews () {
                 />
             ))}
         </div>
-        </section>
+    </section>
     )
 }
 

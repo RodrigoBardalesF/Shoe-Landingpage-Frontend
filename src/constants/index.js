@@ -24,30 +24,30 @@ export const shoes = [
 ];
 
 export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
+    { value: '100%', label: 'Made with local materials' },
+    { value: '+1000 hrs', label: 'Of durability' },
+    { value: '100%', label: 'Made in Mexico' },
 ];
 
 export const products = [
     {
         imgURL: shoe4,
-        name: "Nike Air Jordan-01",
+        name: "Jaguar One",
         price: "$200.20",
     },
     {
         imgURL: shoe5,
-        name: "Nike Air Jordan-10",
+        name: "Xolo Run",
         price: "$210.20",
     },
     {
         imgURL: shoe6,
-        name: "Nike Air Jordan-100",
+        name: "KORA",
         price: "$220.20",
     },
     {
         imgURL: shoe7,
-        name: "Nike Air Jordan-001",
+        name: "VANTA",
         price: "$230.20",
     },
 ];
@@ -73,15 +73,15 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Alejandro Romo',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "I bought them to hike but ended up using them everyday, they're light, comfortable and have a nice design without being too gaudy."
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        customerName: 'Alicia Humbenton',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "They feel premium form the first moment. The tightness is firm and the design has a lot of perosnality."
     }
 ];
 
@@ -90,12 +90,12 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
+            { name: "Jaguar MX Eclipse", link: "/" },
+            { name: "ORBITA", link: "/" },
+            { name: "Sol de Jade", link: "/" },
             { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Nación 21", link: "/" },
+            { name: "Horizonte", link: "/" },
         ],
     },
     {
@@ -111,7 +111,7 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+            { name: "mexicanshoes@email.com", link: "mailto:customer@shoes.com" },
             { name: "+92554862354", link: "tel:+92554862354" },
         ],
     },
